@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navItems {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.firstSectionWrapper {
+    padding: 50px;
+}
+
+.firstSection {
+    background-image: url(../images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cupOfCoffee {
+    margin: auto;
+    padding: 20px;
+    margin-top: 60px;
+    width: 950px;
+    height: 530px;
+    background-image: url(../images/IMAGE.png);
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.subtitle {
+    color: aliceblue;
+    text-align: center;
+}
+
+.subTlt {
+    font-size: 18px;
+}
+
+.buttonWrapper {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 230px;
+    height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.mugsWrapper {
+    margin-top: 100px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.productWrapper {
+    width: 53%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productName {
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productPrice {
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondSection {
+    margin-top: 200px;
+}
+
+.secondSecImg {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.thirdSection {
+    width: 100%;
+    height: 750px;
+    margin-top: 100px;
+}
+
+.LifeStyleStoriesTitle {
+    margin-top: 100px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.coffeeStyleCard {
+    width: 16%;
+    margin-top: 100px;
+}
+
+.flexibleItems {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.storiesTxt {
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribeBlock {
+    width: 90%;
+    height: 400px;
+    background-color: #1D1F2E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descTxt {
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInTxt{
+    font-size: 20px;
+}
+
+
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60px;
+    border: 1px solid white;
+    opacity: 0.2;
+}
+
+.coffeeUpdates {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.subscribeInput {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.infoArea {
+    width: 300px;
+    height: 40px;
+    border:1px solid white;
+    background-color: #1D1F2E;
+    color:white;
+    padding: 7px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footerButton {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
